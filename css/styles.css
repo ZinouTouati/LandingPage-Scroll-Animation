@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+/* Global Styles */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #d3eefe;
+}
+h1 {
+  font-family: 'Poppins';
+  color: #43515c;
+  font-size: 70px;
+  font-weight: lighter;
+  letter-spacing: -5px;
+  padding: 50px 0px 0px 0px;
+  z-index: 999;
+}
+
+/* Section One */
+.section-one {
+  position: relative;
+  width: 100%;
+  height: 150vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.section-one .images-wrapper {
+  position: absolute;
+}
+.ingredient-images {
+  position: absolute;
+  width: 400px;
+  height: 530px;
+  top: 420px;
+  left: calc(50% - 400px);
+}
+.section_1_01 {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+.section_1_02 {
+  position: absolute;
+  top: 80px;
+  right: 130px;
+}
+.section_1_03 {
+  position: absolute;
+  top: 100px;
+  right: 10px;
+}
+.section_1_04 {
+  position: absolute;
+  top: 200px;
+  right: 120px;
+}
+.section_1_05 {
+  position: absolute;
+  top: 225px;
+  right: 150px;
+}
+.section_1_06 {
+  position: absolute;
+  top: 170px;
+  right: 210px;
+}
+.section_1_07 {
+  position: absolute;
+  top: 250px;
+  right: 10px;
+}
+.section_1_08 {
+  position: absolute;
+  top: 320px;
+  right: 110px;
+}
+.section_1_09 {
+  position: absolute;
+  top: 370px;
+  right: 10px;
+}
+
+/* Section Two */
+.section-two {
+  position: relative;
+  width: 100%;
+  height: 120vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.section-two .images-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 370px;
+}
+.section-two .images-wrapper img {
+  position: absolute;
+}
+
+/* Section Thre */
+.section-thre {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.section-thre .images-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.section-thre .images-wrapper img {
+  position: absolute;
+}
